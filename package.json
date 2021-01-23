@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-commax-web-boiler",
+  "version": "0.0.1",
+  "description": "Commax Home Automation Boiler for Homebridge - this program is based on Rubyon's homebridge-commax-boiler",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "landup"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.0",
+    "node": ">=0.10.0"
+  },
+  "author": "JisangYoon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JisangYoon/homebridge-commax-web-boiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JisangYoon/homebridge-commax-web-boiler/issues",
+    "email": "landup@naver.com"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-persist": "^3.1.0",
+    "timer": "^0.0.2"
+  }
+}
